@@ -5,7 +5,7 @@ import pandas
 base_url = "https://pythonizing.github.io/data/real-estate/rock-springs-wy/LCWYROCKSPRINGS/t=0&s="
 data_list = []
 
-for pg_no in range(0, 30, 10):
+for pg_no in range(0, 30, 10): #TODO: scrap last page number from the page itself because total pages can change with time as well as with different search criteria
     print(base_url + str(pg_no) + ".html")
     r = requests.get(base_url + str(pg_no) + ".html")
     c = r.content
