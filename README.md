@@ -1,4 +1,4 @@
-# webscrapping
+# web scrapping
  learn web scrapping
 
 It uses following url for scrapping
